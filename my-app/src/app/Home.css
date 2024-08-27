@@ -1,0 +1,673 @@
+body{
+    padding: 0rem;
+    margin: 0rem;
+}
+.Main_Div{
+    width: 98vw;
+    height: fit-content;
+}
+.Main_Table_Content_Body_Row_Featured{
+    background-color:rgb(250, 234, 215);
+}
+.Main_Table_Div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table,th,td{
+    border: 0.1rem solid;
+    border-color: rgb(183, 179, 179);
+    border-collapse: collapse;
+    height:fit-content;
+    width:90rem;
+}
+td{
+    padding: 0.5rem;
+}
+th{
+    text-align: left;
+}
+.Collage_Image_Div{
+    width: 5rem;
+    height: 5rem;
+}
+.Collage_Image{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10rem;
+}
+.Collage_ImageAndTitleBinder{
+    display: flex;
+    gap: 1rem;
+}
+.Collage_Name{
+    font-size: 1.2rem;
+    color: rgb(0, 213, 255);
+}
+.Collage_LocationAnd_AICTE{
+    font-size: 0.7rem;  
+}
+.Collages_Info_Div{
+    width: 25rem;
+}
+.Collage_CourseAndCutoff_Binder{
+    background-color: bisque;
+    border-left-color: orangered;
+    border-left-width: 0.1rem;
+    border-left-style: solid;
+    width: 20rem;
+    display: flex;
+    position: relative;
+    height: 2.5rem;
+    font-size: 0.85rem;
+}
+.Collage_CourseAndCutoff_Binder:before{
+  content: '';
+  left:100%;
+  position: absolute;
+  border-top: 1.3rem solid transparent;
+  border-bottom: 1.2rem solid transparent;
+  border-left: 2.5rem solid  bisque;
+}
+
+.Collage_Course{
+    color: coral;
+}
+.Collages_Utils{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.Collages_Utils_Apply_Now,.Collages_Utils_Compare,.Collages_Utils_Download{
+    display: flex;
+    font-size: 0.9rem;
+}
+.Collages_Utils_Apply_Now{
+    color: orangered;
+}
+.Collages_Utils_Download{
+ color:rgb(78, 215, 151);
+}
+.Course_Fee_Utils{
+    margin-top: -3.5rem;
+}
+.Fee_details,.Placements_H_Utils,.Placements_A_Utils{
+    font-size: 0.9rem; 
+}
+.Fee,.Placements_Average,.Placements_Highest{
+    display: flex;
+    font-size: 1.1rem;
+    color: green;
+}
+
+.Course_Utils{
+    display: flex;
+    color: orangered;
+}
+.Course_Fee{
+    margin-bottom: 1rem;
+}
+.Placements{
+    margin-bottom: 1.1rem;
+}
+.Placements_Average_Utils,.Placements_Highest_Utils{
+  margin-bottom: 1rem;
+}
+.User_Reviews_Div{
+    margin-bottom: 4rem;
+}
+.User_Reviews{
+    font-size: 0.9rem;
+}
+.User_ReviewsAndRating{
+    margin-bottom: 1rem;
+}
+.Tags{
+    display: flex;
+    color: rgb(226, 130, 146);
+    background-color: bisque;
+    font-size: 0.9rem;
+    position: relative;
+    height: 2rem;
+    width: 10rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Tags:before{
+  content: '';
+  left:100%;
+  position: absolute;
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid transparent;
+  border-left: 1rem solid  bisque;
+}
+.Tags:after{
+    content: '';
+    right:100%;
+    position: absolute;
+    border-top: 1rem solid transparent;
+    border-bottom: 1rem solid transparent;
+    border-right: 1rem solid  bisque;
+}
+.Main_NavBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Main_Table_Row{
+    height: 3rem;
+    background-color: rgb(50, 193, 193);
+    color: rgb(229, 229, 229);
+}
+.rank{
+  padding-bottom: 10rem;
+}
+.Rankings_Mag_Binder{
+    margin-bottom: 7rem;
+}
+.Ranking_Image_Year_Binder{
+    display: flex;
+}
+.Ranking_year{
+    padding-top: 0.5rem;
+}
+.All_Mag_Rankings{
+    background-color: rgb(82, 210, 249);
+    border-left: 0.1rem;
+    border-color: rgb(3, 160, 227);
+    border-left-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 10rem;
+    margin-top: -5rem;
+    position: relative;
+}
+.All_Mag_Rankings:before{
+    content: '';
+    left:100%;
+    position: absolute;
+    border-top: 1.5rem solid transparent;
+    border-bottom: 1.5rem solid transparent;
+    border-left: 1rem solid  rgb(82, 210, 249);
+}
+.All_Mag_Rankings_Images1{
+    width:1.5rem;
+    height:1.5rem;
+    background-color:inherit;
+    mix-blend-mode:multiply;
+    margin-right: -0.9rem;
+    z-index:1;
+}
+
+.All_Mag_Rankings_Images2{
+    width:1.5rem;
+    height:1.5rem;
+    background-color:inherit;
+    mix-blend-mode:multiply;
+    margin-right: -0.9rem;
+    z-Index:2;
+    clip-path: inset(0 0 0 0.5rem);
+}
+.All_Mag_Rankings_Images3{
+    width:1.5rem;
+    height:1.5rem;
+    background-color:inherit;
+    mix-blend-mode:multiply;
+    z-index:3;
+    clip-path: inset(0 0 0 0.5rem);
+}
+
+
+@media only screen and (min-width:480px){
+    table,th,td{
+        border: 0.1rem solid;
+        border-color: rgb(183, 179, 179);
+        border-collapse: collapse;
+        height:fit-content;
+        width:30rem;
+    }
+    .Main_Div{
+        width: 95vw;
+    }
+    .Collages_Info_Div{
+        width: 15rem;
+    }
+    .Collage_ImageAndTitleBinder{
+        gap: 0.5rem;
+    }
+    .Collage_Image_Div{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .Collage_ImageAndTitleBinder{
+        margin-bottom: 3rem;
+    }
+    .Collage_Name{
+        font-size: 0.8rem;
+        color: rgb(0, 213, 255);
+    }
+    .Collage_LocationAnd_AICTE{
+        font-size: 0.6rem;  
+    }
+    .Collage_CourseAndCutoff_Binder{
+        background-color: bisque;
+        border-left-color: orangered;
+        border-left-width: 0.1rem;
+        border-left-style: solid;
+        width: 8rem;
+        display: flex;
+        position: relative;
+        height: 2.5rem;
+        font-size: 0.5rem;
+    }
+    .Collage_CourseAndCutoff_Binder:before{
+        content: '';
+        left:100%;
+        position: absolute;
+        border-top: 1.3rem solid transparent;
+        border-bottom: 1.2rem solid transparent;
+        border-left: 2.5rem solid  bisque;
+    }
+    .Collages_Utils{
+        margin-top: 0.9rem;
+    }
+    .Collages_Utils_Apply_Now,.Collages_Utils_Compare,.Collages_Utils_Download{
+        font-size: 0.65rem;
+    }
+    .Course_Fee_Utils{
+        margin-top: -5rem;
+    }
+    .Course_Fee{
+        margin-bottom: 1rem;
+    }
+    .Fee,.Placements_Average,.Placements_Highest{
+        display: flex;
+        font-size: 0.9rem;
+        color: green;
+    }
+    .Fee_details,.Placements_H_Utils,.Placements_A_Utils{
+        font-size: 0.6rem; 
+    }
+    .Course_Utils{
+        font-size: 0.8rem;
+    }
+    .Placements{
+        margin-bottom: 3rem;
+    }
+    .Placements_Average_Utils,.Placements_Highest_Utils{
+        margin-bottom: 0.9rem;
+    }
+    .User_Reviews_Div{
+        margin-bottom: 5rem;
+    }
+    .User_ReviewsAndRating{
+        margin-bottom: 2rem;
+    }
+    .User_Rating{
+        font-size: 0.8rem;
+    }
+    .User_Reviews{
+        font-size: 0.7rem;
+    }
+    .Tags{
+        display: flex;
+        color: rgb(226, 130, 146);
+        background-color: bisque;
+        font-size: 0.4rem;
+        position: relative;
+        height: 1.5rem;
+        width: 5rem;
+        margin-left: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Tags:before{
+      content: '';
+      left:99%;
+      position: absolute;
+      border-top: 0.75rem solid transparent;
+      border-bottom: 0.75rem solid transparent;
+      border-left: 0.5rem solid  bisque;
+    }
+    .Tags:after{
+        content: '';
+        right:100%;
+        position: absolute;
+        border-top: 0.75rem solid transparent;
+        border-bottom: 0.75rem solid transparent;
+        border-right: 0.5rem solid  bisque;
+    }
+    .Rankings_Mag_Binder{
+        margin-bottom: 10rem;
+        font-size: 0.8rem;
+    }
+    .Ranking_year{
+        padding-top: 0.4rem;
+        font-size: 0.8rem;
+    }
+    .All_Mag_Rankings{
+        border-left: 0.1rem;
+        border-color: rgb(3, 160, 227);
+        border-left-style: solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2.7rem;
+        width: 6rem;
+        margin-top: -5rem;
+        position: relative;
+        font-size: 0.6rem;
+    }
+    .All_Mag_Rankings:before{
+        content: '';
+        left:100%;
+        position: absolute;
+        border-top: 1.3rem solid transparent;
+        border-bottom: 1.3rem solid transparent;
+        border-left: 0.5rem solid  rgb(82, 210, 249);
+    }
+}
+
+@media only screen and (min-width:768px){
+    table,th,td{
+        border: 0.1rem solid;
+        border-color: rgb(183, 179, 179);
+        border-collapse: collapse;
+        height:fit-content;
+        width:80rem;
+    }
+    .Main_Div{
+        width: 99vw;
+    }
+    .Collages_Info_Div{
+        width: 20rem;
+
+    }
+    .Collage_ImageAndTitleBinder{
+        gap: 0.5rem;
+    }
+    .Collage_Image_Div{
+        width: 3rem;
+        height: 3rem;
+    }
+    .Collage_ImageAndTitleBinder{
+        margin-bottom: 1rem;
+    }
+    .Collage_Name{
+        font-size: 1rem;
+        color: rgb(0, 213, 255);
+    }
+    .Collage_LocationAnd_AICTE{
+        font-size: 0.6rem;  
+    }
+    .Collage_CourseAndCutoff_Binder{
+        background-color: bisque;
+        border-left-color: orangered;
+        border-left-width: 0.1rem;
+        border-left-style: solid;
+        width: 13rem;
+        display: flex;
+        position: relative;
+        height: 2.5rem;
+        font-size: 0.7rem;
+    }
+    .Collage_CourseAndCutoff_Binder:before{
+        content: '';
+        left:100%;
+        position: absolute;
+        border-top: 1.3rem solid transparent;
+        border-bottom: 1.2rem solid transparent;
+        border-left: 2.5rem solid  bisque;
+    }
+    .Collages_Utils{
+        margin-top: 1rem;
+    }
+    .Collages_Utils_Apply_Now,.Collages_Utils_Compare,.Collages_Utils_Download{
+        font-size: 0.7rem;
+    }
+    .Course_Fee_Utils{
+        margin-top: -2.5rem;
+    }
+    .Course_Fee{
+        margin-bottom: 1rem;
+    }
+    .Fee,.Placements_Average,.Placements_Highest{
+        display: flex;
+        font-size: 1rem;
+    }
+    .Fee_details,.Placements_H_Utils,.Placements_A_Utils{
+        font-size: 0.7rem; 
+    }
+    .Course_Utils{
+        font-size: 0.9rem;
+    }
+    .Placements{
+        margin-bottom: 0.5rem;
+    }
+    .Placements_Average_Utils,.Placements_Highest_Utils{
+        margin-bottom: 0.9rem;
+    }
+    .User_Reviews_Div{
+        margin-bottom: 3.5rem;
+    }
+    .User_ReviewsAndRating{
+        margin-bottom: 0.9rem;
+    }
+    .User_Rating{
+        font-size: 0.9rem;
+    }
+    .User_Reviews{
+        font-size: 0.8rem;
+    }
+    .Tags{
+        display: flex;
+        color: rgb(226, 130, 146);
+        background-color: bisque;
+        font-size: 0.75rem;
+        position: relative;
+        height: 1.5rem;
+        width: 8rem;
+        margin-left: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Tags:before{
+      content: '';
+      left:100%;
+      position: absolute;
+      border-top: 0.75rem solid transparent;
+      border-bottom: 0.75rem solid transparent;
+      border-left: 0.8rem solid  bisque;
+    }
+    .Tags:after{
+        content: '';
+        right:100%;
+        position: absolute;
+        border-top: 0.75rem solid transparent;
+        border-bottom: 0.75rem solid transparent;
+        border-right: 0.8rem solid  bisque;
+    }
+    .Rankings_Mag_Binder{
+        margin-bottom: 8rem;
+        font-size: 0.9rem;
+    }
+    .Ranking_year{
+        padding-top: 0.4rem;
+        font-size: 0.9rem;
+    }
+    .All_Mag_Rankings{
+        border-left: 0.1rem;
+        border-color: rgb(3, 160, 227);
+        border-left-style: solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2.7rem;
+        width: 8.5rem;
+        margin-top: -5rem;
+        position: relative;
+        font-size: 0.9rem;
+    }
+    .All_Mag_Rankings:before{
+        content: '';
+        left:100%;
+        position: absolute;
+        border-top: 1.3rem solid transparent;
+        border-bottom: 1.3rem solid transparent;
+        border-left: 1rem solid  rgb(82, 210, 249);
+    }
+}
+
+@media only screen and (min-width:1200px){
+    table,th,td{
+        border: 0.1rem solid;
+        border-color: rgb(183, 179, 179);
+        border-collapse: collapse;
+        height:fit-content;
+        width:90rem;
+    }
+    .Collages_Info_Div{
+        width: 20rem;
+    }
+    .Collage_ImageAndTitleBinder{
+        gap: 0.5rem;
+    }
+    .Collage_Image_Div{
+        width: 3rem;
+        height: 3rem;
+    }
+    .Collage_ImageAndTitleBinder{
+        margin-bottom: 1rem;
+    }
+    .Collage_Name{
+        font-size: 1rem;
+        color: rgb(0, 213, 255);
+    }
+    .Collage_LocationAnd_AICTE{
+        font-size: 0.6rem;  
+    }
+    .Collage_CourseAndCutoff_Binder{
+        background-color: bisque;
+        border-left-color: orangered;
+        border-left-width: 0.1rem;
+        border-left-style: solid;
+        width: 13rem;
+        display: flex;
+        position: relative;
+        height: 2.5rem;
+        font-size: 0.7rem;
+    }
+    .Collage_CourseAndCutoff_Binder:before{
+        content: '';
+        left:100%;
+        position: absolute;
+        border-top: 1.3rem solid transparent;
+        border-bottom: 1.2rem solid transparent;
+        border-left: 2.5rem solid  bisque;
+    }
+    .Collages_Utils{
+        margin-top: 1rem;
+    }
+    .Collages_Utils_Apply_Now,.Collages_Utils_Compare,.Collages_Utils_Download{
+        font-size: 0.7rem;
+    }
+    .Course_Fee_Utils{
+        margin-top: -2.5rem;
+    }
+    .Course_Fee{
+        margin-bottom: 1rem;
+    }
+    .Fee,.Placements_Average,.Placements_Highest{
+        display: flex;
+        font-size: 1rem;
+    }
+    .Fee_details,.Placements_H_Utils,.Placements_A_Utils{
+        font-size: 0.7rem; 
+    }
+    .Course_Utils{
+        font-size: 0.9rem;
+    }
+    .Placements{
+        margin-bottom: 0.5rem;
+    }
+    .Placements_Average_Utils,.Placements_Highest_Utils{
+        margin-bottom: 0.9rem;
+    }
+    .User_Reviews_Div{
+        margin-bottom: 3.5rem;
+    }
+    .User_ReviewsAndRating{
+        margin-bottom: 0.9rem;
+    }
+    .User_Rating{
+        font-size: 0.9rem;
+    }
+    .User_Reviews{
+        font-size: 0.8rem;
+    }
+    .Tags{
+        display: flex;
+        color: rgb(226, 130, 146);
+        background-color: bisque;
+        font-size: 0.75rem;
+        position: relative;
+        height: 1.5rem;
+        width: 8rem;
+        margin-left: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Tags:before{
+      content: '';
+      left:100%;
+      position: absolute;
+      border-top: 0.75rem solid transparent;
+      border-bottom: 0.75rem solid transparent;
+      border-left: 0.8rem solid  bisque;
+    }
+    .Tags:after{
+        content: '';
+        right:100%;
+        position: absolute;
+        border-top: 0.75rem solid transparent;
+        border-bottom: 0.75rem solid transparent;
+        border-right: 0.8rem solid  bisque;
+    }
+    .Rankings_Mag_Binder{
+        margin-bottom: 8rem;
+        font-size: 0.9rem;
+    }
+    .Ranking_year{
+        padding-top: 0.4rem;
+        font-size: 0.9rem;
+    }
+    .All_Mag_Rankings{
+       
+        border-left: 0.1rem;
+        border-color: rgb(3, 160, 227);
+        border-left-style: solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2.7rem;
+        width: 8.5rem;
+        margin-top: -5rem;
+        position: relative;
+        font-size: 0.9rem;
+    }
+    .All_Mag_Rankings:before{
+        content: '';
+        left:100%;
+        position: absolute;
+        border-top: 1.3rem solid transparent;
+        border-bottom: 1.3rem solid transparent;
+        border-left: 1rem solid  rgb(82, 210, 249);
+    }
+}

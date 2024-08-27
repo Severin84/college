@@ -1,0 +1,104 @@
+ .NavBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 88vw;
+    height: 10rem;
+}
+
+.NavBar_Input_Div{
+    margin-bottom: 2rem;
+    margin-left: 18rem;
+}
+.NavBar_Input_Div > input{
+  width: 40rem;
+  height: 2rem;
+  font-size: 1.1rem;
+  border-radius: 0.5rem;
+}
+
+.Navbar_CheckBox_Div{
+    display: flex;
+    width: 70rem;
+    height: 3rem;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(191, 197, 195);
+    font-size: 1.1rem;
+    border-radius: 0.5rem;
+} 
+
+.NavBar_CheckBox{
+    width: 60rem;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+}
+.NavBar_SpanAndCheckbox_binder{
+    display: flex;
+    justify-content: space-between;
+    gap:1rem
+}
+
+@media only screen and (min-width:480px){
+    .Navbar_CheckBox_Div{
+        width: 45rem;
+        margin-left: 0.5rem;
+        font-size: 0.8rem;
+    }
+    .NavBar_SpanAndCheckbox_binder{
+        width: 45rem;
+    }
+    .NavBar_CheckBox{
+        font-size: 0.7rem;
+    }
+    .SortBy{
+        width: 5rem;
+    }
+    .NavBar_Input_Div>input{
+        width: 25rem;
+    }
+}
+@media only screen and (min-width:768px){
+    .Navbar_CheckBox_Div{
+        width: 55rem;
+        margin-left: 2rem;
+        font-size: 0.9rem;
+    }
+    .NavBar_SpanAndCheckbox_binder{
+        width: 50rem;
+    }
+    .NavBar_CheckBox{
+        font-size: 0.8rem;
+    }
+    .SortBy{
+        width: 5rem;
+    }
+    .NavBar_Input_Div>input{
+        width: 25rem;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .Navbar_CheckBox_Div{
+        width: 60rem;
+        margin-left: 2rem;
+        font-size: 0.9rem;
+    }
+    .NavBar_SpanAndCheckbox_binder{
+        width: 58rem;
+    }
+    .NavBar_CheckBox{
+        font-size: 0.9rem;
+    }
+    .SortBy{
+        width: 4.5rem;
+    }
+    .NavBar_Input_Div>input{
+        width: 25rem;
+    }
+}
+
+
+
+
